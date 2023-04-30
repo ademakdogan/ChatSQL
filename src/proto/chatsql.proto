@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service ChatSqlGrpc{
+    rpc SqlPredictor(SqlRequest) returns (SqlResponse);
+}
+
+message SqlRequest {
+    string prompt = 1;
+}
+
+message SqlResponse{
+    
+    string query = 1;
+    string rawResult = 2;
+    string processedResult = 3;
+    
+}

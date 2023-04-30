@@ -1,0 +1,11 @@
+[MASTER]
+disable=
+    C0114, # missing-module-docstring
+    C0115,
+    C0116,
+    R1711, # Useless return at end of function or method (useless-return)
+    R0903, # Too few public methods (1/2) (too-few-public-methods)
+    C0209, # Formatting a regular string which could be a f-string (consider-using-f-string)
+    C0301, # Line too long (128/100) (line-too-long)
+    E0401, # Unable to import 'langchain' (import-error)
+    W0621, # redefined-outer-name

@@ -1,0 +1,6 @@
+[flake8]
+ignore=
+    E251, # unexpected spaces around keyword / parameter equals
+    #E501, # line too long (128 > 79 characters)
+    E701, # multiple statements on one line (colon)
+max-line-length = 200

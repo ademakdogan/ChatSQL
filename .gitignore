@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+src/__pycache__
+__pycache__/
+src/.mypy_cache
+src/.ipynb_checkpoints
+.mypy_cache
+src/.mypy_cache
