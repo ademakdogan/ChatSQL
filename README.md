@@ -65,7 +65,7 @@ Here's our sample prompt : "Show me the book type fiction which they height bigg
 So the usage is:  
 
 ```
-python3 chatsql.py -p 'Show me the book type fiction which they height bigger than 175 and smaller than 178. The author shoudn't be 'Doyle, Arthur Conan'. '
+python3 chatsql.py -p 'Show me the book type fiction which they height bigger than 175 and smaller than 178. The author shouldn't be 'Doyle, Arthur Conan'. '
 ```
 Result:
 ```
