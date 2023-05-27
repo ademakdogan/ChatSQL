@@ -1,9 +1,8 @@
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/logo.png" alt="Logo" width="120" height="120">
-  <h1 style="margin-left: 20px;">ChatSQL</h1>
-</div>
+<p align="center">
+  <img width="180" src="./images/logo.png" alt="ChatSQL">
+  <h1 align="center">ChatSQL</h1>
+</p>
 
 
 
