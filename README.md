@@ -1,4 +1,12 @@
-# ChatSQL
+
+
+<div style="display: flex; align-items: center;">
+  <img src="images/logo.png" alt="Logo" width="120" height="120">
+  <h1 style="margin-left: 20px;">ChatSQL</h1>
+</div>
+
+
+
 
 The plain text that it is given by the user is converted to mysql queries using ChatGPT in this project. 
 We need to specify some information about our database from the beginning in order for Chatgpt to understand our database. The [info.json](info.json) file can be used for this process. The database information should be added in this file in detail. As the complexity of your database increases, you should provide more detailed information. After a certain level of complexity, this data must be kept by vectorization and autonomously extracting the specific information structure for each incoming prompt. This method will be more effective and more economical. For this reason, this project is more suitable for mid-small databases. If I have enough time in the future, I will do new project about large database. 
